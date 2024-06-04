@@ -1,0 +1,94 @@
+.footer-header {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer-header p {
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.footer-text1 {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.footer-text1 p {
+    color: white;
+    opacity: 0.6;
+}
+
+.footer-buttons {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.footer-button1 {
+    height: 3.5vh;
+    width: 1.5vw;
+    background-color: #316FF6;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer-button2 {
+    height: 3.5vh;
+    width: 1.5vw;
+    background-color: #1DA1F2;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer-button3 {
+    height: 3.5vh;
+    width: 1.5vw;
+    background-color:  #0077b5;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer-button4 {
+    height: 3.5vh;
+    width: 1.5vw;
+    background-color: #ea4c89;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer-copyright {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.footer-copyright p {
+    color: white;
+    opacity: 0.6;
+}

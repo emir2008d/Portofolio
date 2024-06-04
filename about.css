@@ -1,0 +1,342 @@
+.about-container {
+    width: 100%;
+    height: 190vh;
+}
+
+.about-header {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-header-row1 {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.about-header-row1 p {
+    color: white;
+    font-size: 35px;
+}
+
+.about-header-row2 {
+    width: 60%;
+    height: 10vh;
+    text-align: center;
+}
+
+.about-header-row2 p {
+    color: white;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.about-analytics-container {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+
+.analytics-justify {
+    height: 40vh;
+    width: 75vw;
+    display: flex;
+}
+
+.world-press-container {
+    width: 95%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-analytics-left {
+    width: 50%;
+    height: 100%;
+}
+
+.about-analytics-right {
+    width: 50%;
+    height: 100%;
+}
+
+.world-press p {
+    color: white;
+    font-size: 20px;
+}
+
+.world-press-percentage-container {
+    height: 1vh;
+    width: 100%;
+    display: flex;
+}
+
+.world-press-percentage-blue {
+    height: 1vh;
+    width: 85%;
+    background-color: blue;
+}
+
+.world-press-percentage-gray {
+    height: 1vh;
+    width: 15%;
+    background-color: gray;
+}
+
+.social-media-container {
+    width: 95%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-media p {
+    color: white;
+    font-size: 20px;
+}
+
+.social-media-percentage-container {
+    height: 1vh;
+    width: 100%;
+    display: flex;
+}
+
+.social-media-percentage-blue {
+    height: 1vh;
+    width: 85%;
+    background-color: blue;
+}
+
+.social-media-percentage-gray{
+    height: 1vh;
+    width: 15%;
+    background-color: gray;
+}
+
+.project-management-container {
+    width: 95%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project-managment p {
+    color: white;
+    font-size: 20px;
+}
+
+.project-managment-percentage-container {
+    height: 1vh;
+    width: 100%;
+    display: flex;
+}
+
+.project-managment-percentage-blue {
+    height: 1vh;
+    width: 75%;
+    background-color: blue;
+}
+
+.project-managment-percentage-gray {
+    height: 1vh;
+    width: 25%;
+    background-color: grey;
+}
+
+.uiux-container {
+    width: 95%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.uiux p {
+    color: white;
+    font-size: 20px;
+}
+
+.uiux-percentage-container {
+    height: 1vh;
+    width: 100%;
+    display: flex;
+}
+
+.uiux-percentage-blue {
+    height: 1vh;
+    width: 75%;
+    background-color: blue;
+}
+
+.uiux-percentage-gray {
+    height: 1vh;
+    width: 25%;
+    background-color: grey;
+}
+
+.knowledge-container {
+    width: 95%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.knowledge p {
+    color: white;
+    font-size: 20px;
+}
+
+.knowledge-percentage-container {
+    height: 1vh;
+    width: 100%;
+    display: flex;
+}
+
+.knowledge-percentage-blue {
+    height: 1vh;
+    width: 75%;
+    background-color: blue;
+}
+
+.knowledge-percentage-gray {
+    height: 1vh;
+    width: 25%;
+    background-color: grey;
+}
+
+.awards-container {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+}
+
+.awards-left {
+    width: 36%;
+    height: 35vh;
+}
+
+.awards-right {
+    width: 40%;
+    height: 35vh;
+}
+
+.awards-row {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.awards-row1 {
+    color: white;
+    font-size: 35px;
+}
+
+.awards-row2 {
+    color: white;
+    font-size: 20px;
+}
+
+.awards-row3 {
+    color: white;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.awards-row4 {
+    color: white;
+    font-size: 20px;
+}
+
+.awards-row5 {
+    color: white;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.experience-container {
+    width: 100%;
+    height: 80vh;
+}
+
+.exp-header {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exp-header p {
+    font-size: 35px;
+    color: white;
+}
+
+.exp-justify-container {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.exp-left {
+    height: 70vh;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.exp-right {
+    height: 70vh;
+    width: 60%;
+}
+
+.left-row-exp {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.exp-row1 {
+    color: white;
+    font-size: 25px;
+}
+
+.exp-row2 {
+    color: white;
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+.right-row-exp {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+.exp-row3 {
+    color: white;
+    font-size: 20px;
+    opacity: 0.7;
+}

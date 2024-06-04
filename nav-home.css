@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Open Sans",Helvetica,sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 1080vh;
+    background-color: #1d1e29;
+}
+
+.navigation {
+    width: 100%;
+    height: 10vh;
+    background-color: #1d1e29;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    top: 0;
+}
+
+.logo {
+    height: 10vh;
+    width: 11vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1e29;
+    font-weight: bolder;
+}
+
+.logo p {
+    color: white;
+    font-size: 30px;
+}
+
+.nav-section {
+    width: 40vw;
+    height: 10vh;
+    display: flex;
+}
+
+.nav-links {
+    background-color: #1d1e29;
+    height: 10vh;
+    width: 31vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links a:hover {
+    opacity: 0.7;
+}
+
+.nav-button {
+    width: 9vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1e29;
+}
+
+.nav-button button {
+    color: white;
+    background-color: blue;
+    border: none;
+    height: 6vh;
+    width: 7vw;
+    border-radius: 7px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.hamburger-div {
+    position: absolute;
+    height: 8vh;
+    width: 5vw;
+    background-color: gray;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.home-container {
+    width: 100%;
+    height: 155vh;
+    background-color: #1d1e29;
+    display: flex;
+}
+
+.home-left-div {
+    width: 50%;
+    height: 150vh;
+    background-color: #1d1e29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-right-div {
+    width: 50%;
+    height: 150vh;
+    background-color: #1d1e29;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.home-about-me {
+    background-color: #1d1e29;
+    height: 50vh;
+    width: 40vw;
+    margin-bottom: 15vh;
+    margin-left: 9vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.row1-home-about-me {
+    width: 40vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+.row1-home-about-me p {
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+}
+
+.row2-home-about-me {
+    width: 40vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.row2-home-about-me p {
+    font-size: 45px;
+    color: white;
+}
+
+.row3-home-about-me {
+    width: 40vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+.row3-home-about-me p {
+    font-size: 20px;
+    color: white;
+}
+
+.row4-home-about-me {
+    width: 40vw;
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.about-me-button1 {
+    color: white;
+    background-color: #050CDD;
+    border: none;
+    height: 7vh;
+    width: 9vw;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.about-me-button2 {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    height: 7vh;
+    width: 9vw;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.home-blue-div {
+    width: 30vw;
+    height: 135vh;
+    background-color: #050CDD;
+}
+
+.my-img-home {
+    background-color: gray;
+    height: 70vh;
+    width: 45vh;
+    position: relative;
+    bottom: 50vh;
+    left: 10vw;
+    border-radius: 20px;
+    background-image: url(./images/20240125_203312.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.more-inf-about-me {
+    width: 85vw;
+    height: 80vh;
+    background-color: #14152e;
+    position: relative;
+    bottom: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-inf-about-me-container {
+    height: 55vh;
+    width: 70vw;
+    background-color: #14152e;
+    display: flex;
+}
+
+.more-inf-about-me-left {
+    width: 70%;
+    height: 55vh;
+    background-color: #14152e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-inf-about-me-right {
+    width:30%;
+    height: 55vh;
+    background-color: #14152e;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.row1-more-inf-about-me-left {
+    height: 10vh;
+    width: 35vw;
+    background-color: #14152e;
+}
+
+.row2-more-inf-about-me-left {
+    height: 14vh;
+    width: 35vw;
+    background-color: #14152e;
+}
+
+.row3-more-inf-about-me-left {
+    height: 18vh;
+    width: 35vw;
+    background-color: #14152e;
+}
+
+.row4-more-inf-about-me-left {
+    height: 9vh;
+    width: 35vw;
+    background-color: #14152e;
+}
+
+.row1-more-inf-about-me-left P {
+    background-color: #14152e;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.row2-more-inf-about-me-left P {
+    background-color: #14152e;
+    color: white;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.row3-more-inf-about-me-left P {
+    background-color: #14152e;
+    color: white;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.row4-more-inf-about-me-left P {
+    background-color: #14152e;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.row1-more-inf-about-me-right {
+    height: 9vh;
+    width: 10vw;
+    background-color: #14152e;
+}
+
+.row1-more-inf-about-me-right p {
+    color: blue;
+    background-color: #14152e;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.row2-more-inf-about-me-right {
+    height: 9vh;
+    width: 10vw;
+    background-color: #14152e;
+}
+
+.row2-more-inf-about-me-right p {
+    color: white;
+    background-color: #14152e;
+    font-size: 20px;
+}
+
+.row3-more-inf-about-me-right {
+    height: 9vh;
+    width: 10vw;
+    background-color: #14152e;
+}
+
+.row3-more-inf-about-me-right p {
+    color: blue;
+    background-color: #14152e;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.row4-more-inf-about-me-right {
+    height: 9vh;
+    width: 10vw;
+    background-color: #14152e;
+}
+
+.row4-more-inf-about-me-right p {
+    color: white;
+    background-color: #14152e;
+    font-size: 20px;
+}
+
+.row5-more-inf-about-me-right {
+    height: 9vh;
+    width: 10vw;
+    background-color: #14152e;
+}
+
+.row5-more-inf-about-me-right p {
+    color: blue;
+    background-color: #14152e;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.row6-more-inf-about-me-right {
+    height: 9vh;
+    width: 10vw;
+    background-color: #14152e;
+}
+
+.row6-more-inf-about-me-right p {
+    color: white;
+    background-color: #14152e;
+    font-size: 20px;
+}
+
+ 
